@@ -1,4 +1,7 @@
-langchain==0.0.284
-openai==0.28.1
-python-dotenv==1.0.0
-streamlit==1.27.2
+langchain
+langchain-openai
+dotenv
+streamlit
+langchain-pinecone
+pinecone
+pinecone-client
