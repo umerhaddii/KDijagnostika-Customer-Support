@@ -15,7 +15,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # llm setup
-llm = ChatOpenAI(model="gpt-4o-mini", temperature=0)
+llm = ChatOpenAI(model="gpt-5-2025-08-07", temperature=1)
 
 # system prompt template
 # template = """Answer the question based only on the following context:
@@ -175,3 +175,4 @@ def rag_system(index_name: str):
     rag_chain = initialize_rag_chain(retriever)
     chat_history = []
     return rag_chain, chat_history
+
